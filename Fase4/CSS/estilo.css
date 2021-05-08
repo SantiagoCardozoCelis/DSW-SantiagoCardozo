@@ -1,0 +1,141 @@
+
+header{
+    font-family:Courier;
+    background-color: #eda31d;
+    color:#f1f2f2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav{
+    font-family:Courier;
+    background-color: #fec821;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;     
+}
+
+section{
+    font-family:Courier;
+    float:  left;
+    width: 75%;
+    background-color: #f1f2f2;
+    border-radius: 20px;
+}
+aside{
+    font-family:Courier;
+    float:  left;
+    width: 25%;
+    background-color: #f1f2f2;
+    border-radius: 20px;    
+    text-align: center;
+}
+footer{
+    font-family:Courier;
+    background-color: #b4957c;
+    color:#f1f2f2;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* menu */
+
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em 5em;
+}
+
+.listadespegable{
+    display: none;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    position: absolute;
+}
+.listadespegable a{
+    color: black;
+    display: block;
+    text-align: left;
+
+}
+
+.boton:hover .listadespegable{
+    display: block;
+}
+li a:hover{
+    background-color: #eda31d;
+    border-radius: 20px;
+}
+
+/* Imagen*/
+img{
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+
+}
+
+/* Texto*/
+h2{
+
+    text-align: center;
+    color: #eda31d;
+    font-size: xx-large;
+    font-family:Courier;
+}
+
+p{
+    font-size:20px;
+    font-family:Courier;
+    line-height:30px;
+    text-align:left;
+    text-indent:30px;
+}
+/* Tabla*/
+table {
+        
+        margin: auto;
+
+        width: 50%;
+        border: 1px solid #999;
+        text-align: center;
+        border-collapse: collapse;
+        caption-side: top;
+     }
+     caption, td, th {
+        padding: 0.3em;
+     }
+     th, td {
+        border-bottom: 1px solid #999;
+
+        width: 25%;
+     }
+     caption {
+        font-weight: bold;
+        font-style: italic;
+    }
+audio{
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
